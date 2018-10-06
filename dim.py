@@ -12,7 +12,7 @@ def dim( n, m=None ):
     print ".",
 
 # (simple) cube
-# number of points (vertices) = n^2
+# number of points (vertices) = 2^n
 print "\n-----";
 dim( 0, 2 )
 print "\n-----";
@@ -25,7 +25,7 @@ print "\n-----";
 dim( 4, 2 )
 
 # double cube
-# number of points (vertices) = n^3
+# number of points (vertices) = 3^n
 print "\n-----";
 dim( 0, 3 )
 print "\n-----";
@@ -38,7 +38,7 @@ print "\n-----";
 dim( 4, 3 )
 
 # "n^n"
-# number of points (vertices) = n^n
+# number of points (vertices) = n^n [A000312 in oeis.org]
 print "\n-----";
 dim( 1 )
 print "\n-----";
